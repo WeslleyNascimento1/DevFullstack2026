@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 44px;
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;    
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.botoes a{
+    text-decoration: none;
+    padding: 12px;
+}
+
+.entrar {
+    color: gray;
+}
+
+.cadastrar {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
