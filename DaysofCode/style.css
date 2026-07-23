@@ -45,3 +45,34 @@ button#signUp {
     background-color: var(--main-color);
     color: #fff;
 }
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 407px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.sobre h1 {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.sobre h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #101828;
+    padding-bottom: 60px;
+}
+
+.sobre p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    height: 60px;
+    width: 791px;
+}
