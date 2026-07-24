@@ -76,3 +76,33 @@ button#signUp {
     height: 60px;
     width: 791px;
 }
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metricas div {
+    height: 188px;
+    width: 280px;
+    margin: 20px;
+}
+
+.metricas h1 {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.metricas h2 {
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.metricas p {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+}
