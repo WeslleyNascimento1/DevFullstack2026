@@ -107,3 +107,41 @@ button#signUp {
     font-weight: 400;
     font-size: 16px;
 }
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vagas-textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vagas-textos h1 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--main-color);
+    background-color: #8e242436;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px;
+    width: 110px;
+    text-align: center;
+}
+
+.vagas-textos h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+.vagas-textos p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-bottom: 50px;
+}
