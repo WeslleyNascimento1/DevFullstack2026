@@ -75,6 +75,7 @@ button#signUp {
     color: var(--text-color);
     height: 60px;
     width: 791px;
+    text-align: center;
 }
 
 .metricas {
@@ -125,7 +126,7 @@ button#signUp {
     font-weight: 500;
     font-size: 14px;
     color: var(--main-color);
-    background-color: #8e242436;
+    background: rgba(195, 25, 25, 0.03);
     border-radius: 10px;
     margin: 10px;
     padding: 2px;
@@ -150,6 +151,7 @@ button#signUp {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 96px;
 }
 
 .vagas h2 {
@@ -165,7 +167,7 @@ button#signUp {
 }
 
 .vaga {
-    border: 1px solid rgba(128, 128, 128, 0.63);
+    border: 1px solid rgba(0, 0, 0, 0.555);
     border-radius: 10px;
     width: 768px;
     height: 136px;
@@ -181,4 +183,55 @@ button#signUp {
     font-weight: 500;
     font-size: 16px;
     color: var(--text-color);
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(195, 25, 25, 0.03);
+    height: 404px;
+    width: 1216px;
+    margin: 64px;
+    gap: 32px;
+}
+
+.depoimentos h2 {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--main-color);
+}
+
+.depoimentos h3 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #101828;
+    margin: 32px;
+    text-align: center;
+}
+
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.depoimentos-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+}
+
+.nome {
+    font-weight: 500;
+    font-size: 16px;
+    color: #101828;
+}
+
+.cargo {
+    font-weight: 400;
+    font-size: 14px;
+    color: #667085;
 }
