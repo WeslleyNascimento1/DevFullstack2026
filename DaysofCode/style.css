@@ -235,3 +235,48 @@ button#signUp {
     font-size: 14px;
     color: #667085;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #101828;
+}
+
+.formulario p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.formulario form input {
+    width: 360px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.cadastro {
+    background-color: var(--main-color);
+    color: #fff;
+    height: 48px;
+}
+
+.direitos {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(152, 162, 179, 1);
+    margin: 30px;
+    padding-bottom: 32px;
+}
